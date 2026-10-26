@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,8 +11,8 @@
  
     <div class="top-bar">
         <div class="container-topbar">  
-            <span class="phone">📞 062 900 400 ·</span>
-            <span class="email">✉ rezervari@drumliber.md</span>
+            <span class="phone">📞 <a href="tel:+37362900400" style="color: inherit; text-decoration: none;">062 900 400</a> ·</span>
+            <span class="email">✉ <a href="mailto:rezervari@drumliber.md" style="color: inherit; text-decoration: none;">rezervari@drumliber.md</a></span>
         </div>
         <p class="topbartext">Non-stop, inclusiv la aeroport</p>
     </div>
@@ -21,18 +22,18 @@
             <div class="header-search">
                 <span>🔍</span>
                 <input type="text" placeholder="Caută un model" class="search-input">
-            </div>          
+            </div>         
           <span class="header-text">🚗 <span class="drum">Drum</span><span class="liber">Liber</span></span>
-            <a href="#" class="button">Rezervă mașina</a>
+            <a href="#flota" class="button">Rezervă mașina</a>
         </div>
 
         <nav class="nav">
             <ul class="nav-list">
-                <li class="nav-menu"><a href="#" class="nav-link">Acasă</a></li>
-                <li class="nav-menu"><a href="#" class="nav-link">Flotă</a></li>
-                <li class="nav-menu"><a href="#" class="nav-link">Tarife</a></li>
-                <li class="nav-menu"><a href="#" class="nav-link">Condiții</a></li>
-                <li class="nav-menu"><a href="#" class="nav-link">Contact</a></li>
+              <li class="nav-menu"><a href="#" class="nav-link">Acasă</a></li>
+            <li class="nav-menu"><a href="#flota" class="nav-link">Flotă</a></li>
+            <li class="nav-menu"><a href="#tarife" class="nav-link">Tarife</a></li>
+            <li class="nav-menu"><a href="#avantaje" class="nav-link">Condiții</a></li>
+            <li class="nav-menu"><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </nav>
     </header>  
@@ -60,8 +61,8 @@
                 <p class="text-description">Mașini noi, verificate înainte de fiecare cursă, cu asigurare completă. Le preluați din centrul Chișinăului sau direct la aeroport.</p>
                 
                 <div class="hero-actions">
-                    <a href="#" class="button-viewing">Vezi mașinile</a>
-                    <a href="#" class="button-price">Tarife</a>
+                    <a href="#flota" class="button-viewing">Vezi mașinile</a>
+                    <a href="#tarife" class="button-price">Tarife</a>
                 </div>
 
                 <div class="numbers-grid">
@@ -82,12 +83,12 @@
         </section>
     </main>
 
-    <a href="tel:+" class="call-button">
+    <a href="tel:+37362900400" class="call-button">
   <span class="call-icon">📞</span>
   Sună acum
 </a>
 
-<section class="advantages-section">
+<section class="advantages-section" id="avantaje">
   <div class="advantages-container">
     <div class="advantages-header">
       <span class="advantages-subtitle">DE CE DRUMLIBER</span>
@@ -122,7 +123,7 @@
     </div>
   </div>
 </section>
-<section class="fleet-section">
+<section class="fleet-section" id="flota">
   <div class="fleet-container">
     <div class="fleet-header">
       <span class="fleet-subtitle">FLOTA</span>
@@ -325,7 +326,7 @@
     </div>
   </div>
 </section>
-<section class="pricing-section">
+<section class="pricing-section" id="tarife">
   <div class="pricing-header">
     <span class="subtitle">TARIFE</span>
     <h2>Asigurare pentru orice drum</h2>
@@ -380,7 +381,54 @@
 
   </div>
 </section>
+<section class="newsletter-section">
+  <div class="newsletter-card">
+    <div class="newsletter">
+      <span class="newsletter-emoji">✉</span>
+    </div>
+    <h3>Oferte de weekend</h3>
+    <p>Reduceri la mașini libere, trimise în fiecare joi.</p>
+    <form class="newsletter-form" onsubmit="event.preventDefault();">
+      <input type="email" class="newsletter-input" placeholder="Adresa ta de e-mail" required>
+      <button type="submit" class="btn-subscribe">Abonează-mă</button>
+    </form>
+  </div>
+</section>
 
+<footer class="site-footer" id="contact">
+  <div class="footer-content">
+    <div class="footer-logo">
+     
+      <span>🚗 Drum<span class="highlight-liber">Liber</span></span>
+    </div>
+
+    <p class="footer-description">
+      Închirieri auto în Chișinău, cu livrare la aeroport și asistență rutieră non-stop din 2015.
+    </p>
+
+    <ul class="footer-nav">
+    <li><a href="#">Acasă</a></li>
+            <li><a href="#flota">Flotă</a></li>
+            <li><a href="#tarife">Tarife</a></li>
+            <li><a href="#avantaje">Condiții</a></li>
+            <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="social-links">
+      <a href="#" class="social-icon">f</a>
+      <a href="#" class="social-icon">in</a>
+      <a href="#" class="social-icon">ig</a>
+      <a href="#" class="social-icon">yt</a>
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <div class="footer-bottom">
+      © 2026 DrumLiber · Făcut cu <span class="heart">♥</span> de Lara Scacodub 
+    </div>
+  </div>
+</footer>
 
 </body>
 </html>
+
