@@ -694,7 +694,7 @@ background-color: #f8fafc;
   margin: 0;
   }
 
-  .drum {
+  .drumsection {
   width: 100%;
   padding: 60px 20px;
   background-color: #ffffff;
@@ -766,4 +766,170 @@ background-color: #f8fafc;
   object-fit: cover;
   display: block;
 }
+.tarife {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  color:#0B1220;
+  box-sizing: border-box;
+}
 
+.price-top {
+  margin-bottom: 40px;
+}
+
+.price-top .subtitle {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #1d4ed8;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.price-top h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0 0 8px;
+  color: #0f172a;
+}
+
+.price-top p {
+  font-size: 15px;
+  color: #475569;
+  margin: 0;
+}
+
+.price-cards {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.card-tarife {
+  width: 280px;
+  height: 418px;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 32px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.card-title {
+  font-size: 20px;
+  color: #212529;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.card-price {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.price {
+  font-size: 36px;
+  font-weight: bold;
+  color: #212529;
+}
+
+.period {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.card-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 32px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex-grow: 1;
+}
+
+.card-features li {
+  font-size: 14px;
+  color: #495057;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkmark {
+  color:#1D4ED8;
+  font-weight: bold;
+}
+
+.checkmark.orange {
+  color: #ea580c;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #1b49fd;
+  color: #1b49fd;
+}
+
+.btn-outline:hover {
+  background: #f0f4ff;
+}
+
+.card-tarife.card-featured {
+  background-color: #0f172a;
+  color: #ffffff;
+  border: none;
+  transform: translateY(-8px);
+}
+
+.card-tarife.card-featured .card-title,
+.card-tarife.card-featured .price,
+.card-tarife.card-featured .period,
+.card-tarife.card-featured .card-features li {
+  color: #ffffff;
+}
+
+.badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ea580c;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+}
+
+.btn-filled {
+  background: #ea580c;
+  color: #ffffff;
+}
+
+.btn-filled:hover {
+  background: #c2410c;
+}
