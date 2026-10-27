@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lexend', system-ui, -apple-system, sans-serif;
+    font-family: 'Lexend';
+max-width: 960px;
 }
 
 .top-bar {
@@ -334,9 +335,15 @@
   border-radius: 28px;
   box-sizing: border-box;
   transition: background-color 0.2s ease, transform 0.2s ease;
-  position: absolute;
-  right: 40px;
+
 }
+.button-container  {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto 20px auto;
+  }
 
 .call-button:hover {
   background-color: #c2410c;
@@ -353,10 +360,10 @@
   background-color: #ffffff;
   font-family: 'Lexend', sans-serif;
   box-sizing: border-box;
+  position: relative;
 }
 
 .advantages-container {
-  max-width: 1200px;
   margin: 0 auto;
   text-align: center;
 }
@@ -566,6 +573,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 15px;
   margin-top: auto;
   padding-top: 16px;
 }
@@ -1026,7 +1034,6 @@ background-color: #f8fafc;
   border-radius: 8px;
   font-size: 14px;
   font-weight: 600;
-  cursor: pointer;
   white-space: nowrap;
   transition: background-color 0.2s ease;
 }
@@ -1035,6 +1042,87 @@ background-color: #f8fafc;
 .btn-subscribe:hover {
   background-color: #1e40af;
 }
+
+
+
+footer {
+  background-color: #0B1220;
+  color: #ffffff;
+  padding: 60px 20px 30px;
+  text-align: center;
+  width: 100%;
+  }
+
+  .footer-content {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.footer-description {
+  font-size: 14px;
+  color: #94a3b8;
+  max-width: 500px;
+  line-height: 1.5;
+  margin-bottom: 28px;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+}
+.social-links {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+.social-icon {
+  width: 34px;
+  height: 34px;
+  background-color: #1D4ED8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 400;
+  transition: opacity 0.2s ease;
+}
+.footer-bottom {
+  font-size: 13px;
+  color: #94A3B8;
+}
+
+.liber2 {
+  color: #EA580C;
+  }
+
+
+
+
 
 
 
