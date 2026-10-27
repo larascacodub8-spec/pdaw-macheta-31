@@ -933,3 +933,116 @@ background-color: #f8fafc;
 .btn-filled:hover {
   background: #c2410c;
 }
+
+.abonare {
+  width: 100%;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #E2E8F0;
+}
+
+.abonare-card {
+  position: relative;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 16px;
+  padding: 40px 30px;
+  width: 100%;
+  max-width: 720px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+}
+
+.newsletter {
+  position: absolute;
+  top: -20px;
+  right: 40px;
+  width: 68px;
+  height: 68px;
+  background-color: #EA580C;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.abonare-card h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0B1220;
+  margin-bottom: 8px;
+}
+
+
+.abonare-card p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #64748B;
+  margin-bottom: 24px;
+}
+
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+
+.newsletter-input {
+  flex: 1;
+  height: 46px;
+  padding: 0 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  background-color: #ffffff;
+  color: #0f172a;
+}
+
+
+.newsletter-input::placeholder {
+  color: #94a3b8;
+}
+.newsletter-emoji {
+  font-size: 36px;
+  color: #ffffff;
+  line-height: 1;
+}
+
+.btn-subscribe {
+  height: 46px;
+  padding: 0 20px;
+  background-color: #1D4ED8;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.2s ease;
+}
+
+
+.btn-subscribe:hover {
+  background-color: #1e40af;
+}
+
+
+
+
+
+
+
+
+
+
+
