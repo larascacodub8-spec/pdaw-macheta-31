@@ -355,6 +355,11 @@
   box-sizing: border-box;
 }
 
+.advantages-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
 
 .advantages-top {
   margin-bottom: 40px;
@@ -428,4 +433,161 @@
   font-size: 14px;
   color: #64748b;
 }
+
+
+.flota {
+  width: 100%;
+  padding: 60px 20px;
+  background-color: #f8fafc;
+  font-family: 'Lexend', sans-serif;
+  box-sizing: border-box;
+  margin-top: 40px;
+}
+
+.flota-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flota-top {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+.flota-subtitle {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  color: #2563eb;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+
+.flota-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0b1220;
+  margin: 0 0 8px 0;
+}
+
+
+.flota-description {
+  font-size: 15px;
+  color: #64748b;
+  margin: 0;
+}
+
+
+.flota-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.car-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.car {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  background: #f1f5f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.car-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.car-text {
+  font-size: 14px;
+  color: #64748b;
+  margin: 0;
+}
+
+.car-text.top,
+.car-text.nou,
+.car-text.discount {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: #EA580C;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 6px;
+  text-transform: uppercase;
+}
+
+
+
+.car-favorite {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+
+.car-info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.car-name {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.car-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 16px;
+}
+
+.car-price {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0b1220;
+}
+
+.car-add-btn {
+  background: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  width: 36px;
+  height: 36px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 
