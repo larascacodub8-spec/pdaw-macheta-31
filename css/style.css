@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lexend';
-max-width: 960px;
+    max-width: 960px;
 }
 
 .top-bar {
@@ -63,7 +63,7 @@ max-width: 960px;
     width: 100%;
     font-size: 14px;
     color: #666;
-    font-family: 'Lexend', sans-serif;
+    font-family: 'Lexend';
 }
 
 .header-text {
@@ -100,8 +100,6 @@ max-width: 960px;
     display: flex;
     list-style: none;
     gap: 32px;
-    padding: 0;
-    margin: 0;
 }
 
 .nav-link {
@@ -123,12 +121,10 @@ max-width: 960px;
 .hero {
     padding: 50px 60px;
     display: flex;
-    flex-direction: row;
     align-items: center;
     gap: 60px;
-    max-width: 1300px;
-    margin: 0 auto;
 }
+
 
 .hero-image-wrapper {
     position: relative;
@@ -137,16 +133,10 @@ max-width: 960px;
     flex-shrink: 0;
 }
 
-.hero-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 24px;
-}
 .casco-badge {
     position: absolute;
     top: 580px;
-    left: 220px;
+    left: 100px;
     width: 214px;
     height: 62px;
     background-color: #FFFFFF;
@@ -155,14 +145,9 @@ max-width: 960px;
     display: flex;
     align-items: center;
     gap: 10px;
- 
-    z-index: 5;
 }
 
 .casco-icon {
-    width: 36px;
-    height: 36px;
-    min-width: 36px;
     background-color: #E3EBFD;
     border-radius: 50%;
     display: flex;
@@ -175,7 +160,6 @@ max-width: 960px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    overflow: hidden;
 }
 
 .casco-title {
@@ -316,9 +300,6 @@ max-width: 960px;
     margin-top: 2px;
 }
 
-
-
-
 .call-button {
   display: inline-flex;
   align-items: center;
@@ -328,7 +309,7 @@ max-width: 960px;
   height: 56px;
   background-color: #ea580c;
   color: #ffffff;
-  font-family: 'Lexend', sans-serif;
+  font-family: 'Lexend';
   font-size: 16px;
   font-weight: 600;
   text-decoration: none;
@@ -340,9 +321,6 @@ max-width: 960px;
 .button-container  {
   display: flex;
   justify-content: flex-end;
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto 20px auto;
   }
 
 .call-button:hover {
@@ -358,13 +336,10 @@ max-width: 960px;
   width: 100%;
   padding: 60px 20px;
   background-color: #ffffff;
-  font-family: 'Lexend', sans-serif;
-  box-sizing: border-box;
   position: relative;
 }
 
 .advantages-container {
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -446,14 +421,7 @@ max-width: 960px;
   width: 100%;
   padding: 60px 20px;
   background-color: #f8fafc;
-  font-family: 'Lexend', sans-serif;
-  box-sizing: border-box;
   margin-top: 40px;
-}
-
-.flota-container {
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .flota-top {
@@ -477,7 +445,7 @@ max-width: 960px;
   font-size: 32px;
   font-weight: 700;
   color: #0b1220;
-  margin: 0 0 8px 0;
+  margin-bottom:8px;
 }
 
 
@@ -498,7 +466,6 @@ max-width: 960px;
   background: #ffffff;
   border: 1px solid #e2e8f0;
   border-radius: 16px;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
 }
@@ -539,8 +506,6 @@ max-width: 960px;
   border-radius: 6px;
   text-transform: uppercase;
 }
-
-
 
 .car-favorite {
   position: absolute;
@@ -601,14 +566,7 @@ max-width: 960px;
 .reviews-section {
   width: 100%;
   padding: 60px 20px;
-background-color: #f8fafc;
-
-  box-sizing: border-box;
-}
-
-.reviews-container {
-  max-width: 1200px;
-  margin: 0 auto;
+  background-color: #f8fafc;
 }
 
 .reviews-top {
@@ -617,11 +575,10 @@ background-color: #f8fafc;
 }
 
 .reviews-subtitle {
-
   font-size: 12px;
   font-weight: 700;
   color: #2563eb;
-    text-transform: uppercase;
+  text-transform: uppercase;
 
 }
 
@@ -643,8 +600,8 @@ background-color: #f8fafc;
   padding: 32px;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
 }
+
 .review-stars {
   color: #f59e0b;
 }
@@ -678,22 +635,20 @@ background-color: #f8fafc;
   align-items: center;
   gap: 16px;
 }
+
 .review-text {
   font-size: 14px;
   font-weight: 400;
   color:#475569;
   line-height: 1.5;
-  margin: 0 0 32px 0;
-  flex-grow: 1;
+  margin-bottom: 32px;
   }
 
   .reviewby {
   font-size: 16px;
   font-weight: 700;
   color:#0b0b0b;
-  margin: 0 0 2px 0;
 }
-
 
 .details {
   font-size: 12px;
@@ -703,25 +658,14 @@ background-color: #f8fafc;
   }
 
   .drumsection {
-  width: 100%;
   padding: 60px 20px;
   background-color: #ffffff;
-  font-family: 'Lexend', sans-serif;
-  box-sizing: border-box;
 }
-
-
-.drum-container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 
 .drum-top {
   text-align: center;
   margin-bottom: 40px;
 }
-
 
 .drumsubtitle {
   display: block;
@@ -730,7 +674,6 @@ background-color: #f8fafc;
   color:#1D4ED8;
   margin-bottom: 8px;
 }
-
 
 .drumtitle {
   font-size: 32px;
@@ -774,14 +717,11 @@ background-color: #f8fafc;
   object-fit: cover;
   display: block;
 }
+
 .tarife {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
   padding: 40px 20px;
   text-align: center;
   color:#0B1220;
-  box-sizing: border-box;
 }
 
 .price-top {
@@ -801,22 +741,18 @@ background-color: #f8fafc;
 .price-top h2 {
   font-size: 32px;
   font-weight: 800;
-  margin: 0 0 8px;
   color: #0f172a;
 }
 
 .price-top p {
   font-size: 15px;
   color: #475569;
-  margin: 0;
 }
 
 .price-cards {
   display: flex;
   justify-content: center;
-  align-items: stretch;
   gap: 24px;
-  flex-wrap: wrap;
 }
 
 .card-tarife {
@@ -859,12 +795,9 @@ background-color: #f8fafc;
 
 .card-features {
   list-style: none;
-  padding: 0;
-  margin: 0 0 32px 0;
   display: flex;
   flex-direction: column;
   gap: 12px;
-  flex-grow: 1;
 }
 
 .card-features li {
@@ -892,7 +825,6 @@ background-color: #f8fafc;
   font-weight: 600;
   border: none;
   transition: 0.2s ease;
-  cursor: pointer;
 }
 
 .btn-outline {
@@ -1004,7 +936,6 @@ background-color: #f8fafc;
 
 
 .newsletter-input {
-  flex: 1;
   height: 46px;
   padding: 0 16px;
   border: 1px solid #cbd5e1;
@@ -1043,8 +974,6 @@ background-color: #f8fafc;
   background-color: #1e40af;
 }
 
-
-
 footer {
   background-color: #0B1220;
   color: #ffffff;
@@ -1054,8 +983,8 @@ footer {
   }
 
   .footer-content {
-  max-width: 960px;
-  margin: 0 auto;
+
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1109,7 +1038,6 @@ footer {
   text-decoration: none;
   font-size: 13px;
   font-weight: 400;
-  transition: opacity 0.2s ease;
 }
 .footer-bottom {
   font-size: 13px;
